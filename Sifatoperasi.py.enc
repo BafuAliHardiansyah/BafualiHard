@@ -1,0 +1,8 @@
+import math
+
+def Komutatif (a, b):
+    return a+b 
+def Asosiatif(a, b, c):
+    return (a+b)+c 
+def Distributif (a, b, c):
+    return a*(b+c)

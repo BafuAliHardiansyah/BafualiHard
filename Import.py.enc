@@ -1,0 +1,16 @@
+
+import Sifatoperasi
+
+def main():
+    a=2
+    b=3
+
+    Kom = Sifatoperasi.Komutatif(a, b)
+
+    print ("Sifat Komutatif")
+    print ("Nilai1\t : ", a)
+    print ("Nilai2\t : ", b)
+    print ("Hasil\t= ", Kom)
+    
+if __name__ == "__main__":
+    main()
